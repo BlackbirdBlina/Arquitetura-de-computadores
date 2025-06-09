@@ -1,0 +1,29 @@
+Objetivos:
+
+5 números desordenados
+ordenar de forma crecente
+7, 2, 9, 1, 5
+
+Compara o segundo com o primeiro
+Se o segundo menor que o primeiro -> troca posição -> avança posição
+Se não, mantém os valores nas mesmas posições e avança para a terceira posição
+
+Compara o terceiro com o segundo e, em seguida, o terceiro com o primeiro
+Se o terceiro menor que o segundo -> troca posição -> verifica o terceiro com o primeiro
+Se o terceiro menor que o primeiro -> troca posição -> avança posição
+Se não, mantém os valores nas mesmas posições e avança para a quarta posição
+
+Compara o quarto com o terceiro, o quarto com o segundoo e, em seguida, o quarto com o primeiro
+Se o quarto menor que o terceiro -> troca posição -> verifica o quarto com o segundo
+Se o quarto menor que o segundo -> troca posição -> verifica o quarto com o primeiro
+Se o quarto menor que o primeiro -> troca posição -> avança posição
+Se não, mantém os valores nas mesmas posições e avança para a quinta posição
+
+Compara o quinto com o quarto, o quinto com o terceiro, o quinto com o segundo e, em seguida, o quinto com o primeiro
+Se o quinto menor que o quarto -> troca posição -> verifica o quinto com o terceiro
+Se o quinto menor que o terceiro -> troca posição -> verifica o quinto com o segundo
+Se o quinto menor que o segundo -> troca posição -> verifica o quinto com o primeiro
+Se o quinto menor que o primeiro -> troca posição -> avança posição
+Se não, mantém os valores nas mesmas posições e avança para a quinta posição
+
+
